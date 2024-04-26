@@ -1,13 +1,16 @@
-# 5G-MAG Reference Tools: Web User Interface for MBMS Modem, MBMS Middleware and Application.
-
-This repository holds the Web User Interface for the MBMS Modem, MBMS Middleware and Applicaiton within the 5G-MAG Reference Tools.
+<h1 align="center">Web User Interface for MBMS Modem, MBMS Middleware and Application</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Under_Development-yellow" alt="Under Development">
+  <img src="https://img.shields.io/github/v/tag/5G-MAG/rt-wui?label=version" alt="Version">
+  <img src="https://img.shields.io/badge/License-5G--MAG%20Public%20License%20(v1.0)-blue" alt="License">
+</p>
 
 ## Introduction
 
 The 5G-MAG Reference Tools Webinterface (rt-wui) provides an optional graphical webinterface with a control display for each 5G-MAG Reference Tools process (MBMS Modem, MBMS Middleware, Application). Its main purpose is to collect and display useful information from the MBMS Modem, MBMS Middleware and Application Process. It also enables use cases where the 5G-MAG Reference Tools can be used for simple measurements (e.g., mobile measurements) or as a standalone device (e.g., set-top box, mobile phone/tablet showcase). The *rt-wui* consists of three
 tabs, one for each process. Data from the processes are collected using their respective RestAPI.
 
-![Architecture](https://github.com/5G-MAG/Documentation-and-Architecture/blob/main/media/architecture/5G-MAG%20RT%20Architecture%20Current%20Architecture%205G%20Media%20Client%20v8.drawio.png)
+![Architecture](https://github.com/5G-MAG/Getting-Started/blob/main/media/architecture/5G-MAG%20RT%20Architecture%20Current%20Architecture%205G%20Media%20Client%20v8.drawio.png)
 
 Being accessible over http(s) makes *rt-wui* ideal for remote monitoring related 5G-MAG Reference Tools processes.
 
@@ -137,7 +140,7 @@ webinterface:
 |  `` systemctl enable rt-wui.service `` | Enable autostart, *rt-wui* will be started automatically after reboot |
 
 ### Running example
-![Architecture](https://github.com/5G-MAG/Documentation-and-Architecture/blob/main/media/wiki/Webiface_rp.PNG)
+![Architecture](https://github.com/5G-MAG/Getting-Started/blob/main/media/wiki/Webiface_rp.PNG)
 
 
 ## Docker Implementation
